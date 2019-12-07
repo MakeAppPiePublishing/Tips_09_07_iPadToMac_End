@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1AE2814238BF58B00153C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE2813238BF58B00153C27 /* AppDelegate.swift */; };
+		E1AE2816238BF58B00153C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE2815238BF58B00153C27 /* SceneDelegate.swift */; };
+		E1AE2818238BF58B00153C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE2817238BF58B00153C27 /* ContentView.swift */; };
+		E1AE281A238BF58F00153C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE2819238BF58F00153C27 /* Assets.xcassets */; };
+		E1AE281D238BF58F00153C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE281C238BF58F00153C27 /* Preview Assets.xcassets */; };
+		E1AE2820238BF58F00153C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE281E238BF58F00153C27 /* LaunchScreen.storyboard */; };
+		E1BFDE6F238BFD80006B2A64 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFDE6E238BFD7F006B2A64 /* MenuItem.swift */; };
+		E1BFDE71238BFFB6006B2A64 /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFDE70238BFFB6006B2A64 /* MenuItems.swift */; };
+		E1BFDE73238C0121006B2A64 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFDE72238C0121006B2A64 /* RowView.swift */; };
+		E1BFDE75238C179D006B2A64 /* Menu_old.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BFDE74238C179C006B2A64 /* Menu_old.json */; };
+		E1BFDE77238C25C1006B2A64 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFDE76238C25C1006B2A64 /* DetailView.swift */; };
+		E1BFDE79238C30BD006B2A64 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFDE78238C30BD006B2A64 /* HeadingView.swift */; };
+		E1BFDE7B238C357E006B2A64 /* Menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E1BFDE7A238C357E006B2A64 /* Menu.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201B6560239BFB020072EC93 /* PizzaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PizzaMac.entitlements; sourceTree = "<group>"; };
+		E1AE2810238BF58B00153C27 /* PizzaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AE2813238BF58B00153C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1AE2815238BF58B00153C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1AE2817238BF58B00153C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1AE2819238BF58F00153C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1AE281C238BF58F00153C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1AE281F238BF58F00153C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1AE2821238BF58F00153C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BFDE6E238BFD7F006B2A64 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		E1BFDE70238BFFB6006B2A64 /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		E1BFDE72238C0121006B2A64 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		E1BFDE74238C179C006B2A64 /* Menu_old.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Menu_old.json; sourceTree = "<group>"; };
+		E1BFDE76238C25C1006B2A64 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E1BFDE78238C30BD006B2A64 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		E1BFDE7A238C357E006B2A64 /* Menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Menu.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1AE280D238BF58B00153C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1AE2807238BF58B00153C27 = {
+			isa = PBXGroup;
+			children = (
+				E1AE2812238BF58B00153C27 /* PizzaMac */,
+				E1AE2811238BF58B00153C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1AE2811238BF58B00153C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE2810238BF58B00153C27 /* PizzaMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1AE2812238BF58B00153C27 /* PizzaMac */ = {
+			isa = PBXGroup;
+			children = (
+				201B6560239BFB020072EC93 /* PizzaMac.entitlements */,
+				E1AE2817238BF58B00153C27 /* ContentView.swift */,
+				E1BFDE76238C25C1006B2A64 /* DetailView.swift */,
+				E1BFDE78238C30BD006B2A64 /* HeadingView.swift */,
+				E1BFDE72238C0121006B2A64 /* RowView.swift */,
+				E1BFDE70238BFFB6006B2A64 /* MenuItems.swift */,
+				E1BFDE74238C179C006B2A64 /* Menu_old.json */,
+				E1BFDE7A238C357E006B2A64 /* Menu.json */,
+				E1BFDE6E238BFD7F006B2A64 /* MenuItem.swift */,
+				E1AE2819238BF58F00153C27 /* Assets.xcassets */,
+				E1AE2813238BF58B00153C27 /* AppDelegate.swift */,
+				E1AE2815238BF58B00153C27 /* SceneDelegate.swift */,
+				E1AE281E238BF58F00153C27 /* LaunchScreen.storyboard */,
+				E1AE2821238BF58F00153C27 /* Info.plist */,
+				E1AE281B238BF58F00153C27 /* Preview Content */,
+			);
+			path = PizzaMac;
+			sourceTree = "<group>";
+		};
+		E1AE281B238BF58F00153C27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE281C238BF58F00153C27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1AE280F238BF58B00153C27 /* PizzaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AE2824238BF58F00153C27 /* Build configuration list for PBXNativeTarget "PizzaMac" */;
+			buildPhases = (
+				E1AE280C238BF58B00153C27 /* Sources */,
+				E1AE280D238BF58B00153C27 /* Frameworks */,
+				E1AE280E238BF58B00153C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaMac;
+			productName = PizzaMac;
+			productReference = E1AE2810238BF58B00153C27 /* PizzaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1AE2808238BF58B00153C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Steven Lipton";
+				TargetAttributes = {
+					E1AE280F238BF58B00153C27 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E1AE280B238BF58B00153C27 /* Build configuration list for PBXProject "PizzaMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1AE2807238BF58B00153C27;
+			productRefGroup = E1AE2811238BF58B00153C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1AE280F238BF58B00153C27 /* PizzaMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1AE280E238BF58B00153C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BFDE7B238C357E006B2A64 /* Menu.json in Resources */,
+				E1AE2820238BF58F00153C27 /* LaunchScreen.storyboard in Resources */,
+				E1AE281D238BF58F00153C27 /* Preview Assets.xcassets in Resources */,
+				E1BFDE75238C179D006B2A64 /* Menu_old.json in Resources */,
+				E1AE281A238BF58F00153C27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1AE280C238BF58B00153C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AE2814238BF58B00153C27 /* AppDelegate.swift in Sources */,
+				E1BFDE77238C25C1006B2A64 /* DetailView.swift in Sources */,
+				E1BFDE73238C0121006B2A64 /* RowView.swift in Sources */,
+				E1BFDE6F238BFD80006B2A64 /* MenuItem.swift in Sources */,
+				E1BFDE71238BFFB6006B2A64 /* MenuItems.swift in Sources */,
+				E1AE2816238BF58B00153C27 /* SceneDelegate.swift in Sources */,
+				E1AE2818238BF58B00153C27 /* ContentView.swift in Sources */,
+				E1BFDE79238C30BD006B2A64 /* HeadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1AE281E238BF58F00153C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AE281F238BF58F00153C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1AE2822238BF58F00153C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1AE2823238BF58F00153C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1AE2825238BF58F00153C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PizzaMac/PizzaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaMac/Preview Content\"";
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PizzaMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeAppPie.PizzaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1AE2826238BF58F00153C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PizzaMac/PizzaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaMac/Preview Content\"";
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PizzaMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeAppPie.PizzaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1AE280B238BF58B00153C27 /* Build configuration list for PBXProject "PizzaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE2822238BF58F00153C27 /* Debug */,
+				E1AE2823238BF58F00153C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AE2824238BF58F00153C27 /* Build configuration list for PBXNativeTarget "PizzaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE2825238BF58F00153C27 /* Debug */,
+				E1AE2826238BF58F00153C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1AE2808238BF58B00153C27 /* Project object */;
+}

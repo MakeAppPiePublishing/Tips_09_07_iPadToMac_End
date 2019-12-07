@@ -1,0 +1,24 @@
+
+    [{
+        "id":0,
+        "name":"Margherita",
+        "description":"The classic pizza of Buffalo Mozzarella, tomatoes, and basil on a classic crust.",
+        "price": 5.00
+    },
+    {
+        "id":1,
+        "name":"Pepperoni",
+        "description":"The New York Favorite. Spicy pepperoni on cheese and a classic crust",
+        "price": 10.00
+    },
+    {   "id":2,
+        "name":"Quattro Formaggi",
+        "description":"For cheese lovers! Mozzarella, Gorgonzola,Parmesean and Fontina Blended into the ultimate white pizza.",
+        "price": 12.00
+    },
+    {   "id":3,
+        "name":"Quattro Formaggi Mac",
+        "description":"For cheese lovers! Mozzarella, Gorgonzola,Parmesean and Fontina melted onto fresh Rotini for the ultimate Mac and cheese experience",
+        "price": 12.00
+    }]
+
